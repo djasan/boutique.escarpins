@@ -14,6 +14,7 @@ const App = () => {
     {
       'articles': articles,
       'achat':[]
+      
     }
   )
   const [statePanier, setStatePanier] = React.useState(
@@ -40,7 +41,7 @@ const App = () => {
   }
   return (
     
-    <BoutiqueContexts.Provider value ={state}>
+    <BoutiqueContexts.Provider value ={{...state,'decrementQte':decrementQte}}>
     
       <header>
         <Menu 

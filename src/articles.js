@@ -1,7 +1,7 @@
 const articles = [
     {
         id: 0,
-        name: 'Escarpins ALMA',
+        name: 'Escarpins ALMA' ,
         description: "Escarpins bleus",
         price: 10.99,
         img: "escarpins bleus.jpg",
