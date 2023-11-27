@@ -1,26 +1,26 @@
 const articles = [
     {
         id: 0,
-        name: 'escarpin A',
-        description: "Description du produit 1",
+        name: 'Escarpins ALMA',
+        description: "Escarpins bleus",
         price: 10.99,
-        img: "escarpin bleus.jpg",
+        img: "escarpins bleus.jpg",
         qte: 5,
         promo: true,
       },
       {
         id: 1,
-        name: 'escarpin B',
-        description: "Description du produit 2",
+        name: 'Escarpins BLONDIE',
+        description: "Escarpins motifs colorés",
         price: 10.99,
-        img: "escarpins beiges.jpg",
+        img: "escarpins motifs colorés.jpg",
         qte: 5,
         promo: false,
       },
       {
         id: 2,
-        name: 'escarpin C',
-        description: "Description du produit 3",
+        name: 'Escarpins CHANE',
+        description: "Escarpins gris verts",
         price: 10.99,
         img: "escarpins gris verts.jpg",
         qte: 5,
@@ -28,8 +28,8 @@ const articles = [
       },
       {
         id: 3,
-        name: 'escarpin D',
-        description: "Description du produit 4",
+        name: 'Escarpins DEBBIE',
+        description: "Escarpins blancs",
         price: 10.99,
         img: "escarpins blancs.jpg",
         qte: 5,
@@ -37,8 +37,8 @@ const articles = [
       },
       {
         id: 4,
-        name: 'escarpin E',
-        description: "Description du produit 5",
+        name: 'Escarpins ELVIRA',
+        description: "Escarpins noirs",
         price: 10.99,
         img: "escarpins noirs.jpg",
         qte: 5,
@@ -46,13 +46,14 @@ const articles = [
       },
       {
         id: 5,
-        name: 'escarpin F',
-        description: "Description du produit 6",
+        name: 'Escarpins FLOW',
+        description: "Escarpins bordeaux",
         price: 10.99,
-        img: "escarpins rouges.jpg",
+        img: "escarpins bordeaux.jpg",
         qte: 5,
         promo: true,
       }
+   
     ];
   
 export {articles}

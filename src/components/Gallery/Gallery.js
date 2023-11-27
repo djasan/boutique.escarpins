@@ -7,7 +7,7 @@ const Gallery = (props) => (
   <div className="Gallery">
     {
       props.articles.map((value, index) => (
-        <Card key={index} article={value} decremente={props.decrementeQte}></Card>
+        <Card key={index} article={value} decrementQte={props.decrementQte}></Card>
       ))
     }
   </div>

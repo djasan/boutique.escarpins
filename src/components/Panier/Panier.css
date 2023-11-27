@@ -1,0 +1,72 @@
+/* Panier.css */
+.backgroundPanier {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panier {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+span[role="close-button"] {
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+div[role="panier-content"] {
+    /* Styles spécifiques pour le contenu du panier */
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Styles pour la liste des articles dans le panier */
+  ul[role="panier-list"] {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Styles pour chaque article dans le panier */
+  li[role="panier-item"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  /* Styles pour le bouton de suppression d'un article dans le panier */
+  button[role="remove-item-button"] {
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+  }
+  
+  /* Style pour le montant total du panier */
+  div[role="total-amount"] {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
