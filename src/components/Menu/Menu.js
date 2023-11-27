@@ -1,25 +1,17 @@
-import React, { useState } from 'react';
+// Menu.js
+
+import React from 'react';
 import './Menus.css';
 
-
-
-// Composant Menu
 const Menu = (props) => {
-  // État du panier
- 
-
-
-
   return (
-    <div>
-      {/* Entrée du menu qui affiche le panier sous forme de modale */}
-      <div onClick={props.handleDisplayPanier}>
+    <div className="Menu">
+      <div className="MenuItems" onClick={props.handleDisplayPanier}>
         Afficher le Panier
       </div>
-
-      
     </div>
   );
 };
 
 export default Menu;
+

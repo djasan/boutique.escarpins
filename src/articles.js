@@ -1,7 +1,7 @@
 const articles = [
     {
         id: 0,
-        name: 'Escarpins ALMA' ,
+        name: ' ALMA' ,
         description: "Escarpins bleus",
         price: 10.99,
         img: "escarpins bleus.jpg",
@@ -10,7 +10,7 @@ const articles = [
       },
       {
         id: 1,
-        name: 'Escarpins BLONDIE',
+        name: ' BLONDIE',
         description: "Escarpins motifs colorés",
         price: 10.99,
         img: "escarpins motifs colorés.jpg",
@@ -19,16 +19,16 @@ const articles = [
       },
       {
         id: 2,
-        name: 'Escarpins CHANE',
+        name: ' CHANE',
         description: "Escarpins gris verts",
         price: 10.99,
-        img: "escarpins gris verts.jpg",
+        img: "escarpins gris et verts.jpg",
         qte: 5,
         promo: true,
       },
       {
         id: 3,
-        name: 'Escarpins DEBBIE',
+        name: ' DEBBIE',
         description: "Escarpins blancs",
         price: 10.99,
         img: "escarpins blancs.jpg",
@@ -37,7 +37,7 @@ const articles = [
       },
       {
         id: 4,
-        name: 'Escarpins ELVIRA',
+        name: ' ELVIRA',
         description: "Escarpins noirs",
         price: 10.99,
         img: "escarpins noirs.jpg",
@@ -46,7 +46,7 @@ const articles = [
       },
       {
         id: 5,
-        name: 'Escarpins FLOW',
+        name: ' FLOW',
         description: "Escarpins bordeaux",
         price: 10.99,
         img: "escarpins bordeaux.jpg",
